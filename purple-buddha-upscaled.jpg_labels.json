@@ -1,0 +1,128 @@
+{
+    "Labels": [
+        {
+            "Name": "Art",
+            "Confidence": 99.99239349365234,
+            "Instances": [],
+            "Parents": [],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Hobbies and Interests"
+                }
+            ]
+        },
+        {
+            "Name": "Prayer",
+            "Confidence": 99.93495178222656,
+            "Instances": [],
+            "Parents": [],
+            "Aliases": [
+                {
+                    "Name": "Worship"
+                }
+            ],
+            "Categories": [
+                {
+                    "Name": "Religion"
+                }
+            ]
+        },
+        {
+            "Name": "Adult",
+            "Confidence": 99.39990234375,
+            "Instances": [
+                {
+                    "BoundingBox": {
+                        "Width": 0.550045371055603,
+                        "Height": 0.9545764327049255,
+                        "Left": 0.2552022337913513,
+                        "Top": 0.04535452648997307
+                    },
+                    "Confidence": 99.39990234375
+                }
+            ],
+            "Parents": [
+                {
+                    "Name": "Person"
+                }
+            ],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Person Description"
+                }
+            ]
+        },
+        {
+            "Name": "Person",
+            "Confidence": 99.39990234375,
+            "Instances": [
+                {
+                    "BoundingBox": {
+                        "Width": 0.550045371055603,
+                        "Height": 0.9545764327049255,
+                        "Left": 0.2552022337913513,
+                        "Top": 0.04535452648997307
+                    },
+                    "Confidence": 99.39990234375
+                }
+            ],
+            "Parents": [],
+            "Aliases": [
+                {
+                    "Name": "Human"
+                }
+            ],
+            "Categories": [
+                {
+                    "Name": "Person Description"
+                }
+            ]
+        },
+        {
+            "Name": "Woman",
+            "Confidence": 99.39990234375,
+            "Instances": [
+                {
+                    "BoundingBox": {
+                        "Width": 0.550045371055603,
+                        "Height": 0.9545764327049255,
+                        "Left": 0.2552022337913513,
+                        "Top": 0.04535452648997307
+                    },
+                    "Confidence": 99.39990234375
+                }
+            ],
+            "Parents": [
+                {
+                    "Name": "Adult"
+                },
+                {
+                    "Name": "Female"
+                },
+                {
+                    "Name": "Person"
+                }
+            ],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Person Description"
+                }
+            ]
+        }
+    ],
+    "LabelModelVersion": "3.0",
+    "ResponseMetadata": {
+        "RequestId": "202da13d-4eaf-41b4-8cf9-df12c1a4f8ba",
+        "HTTPStatusCode": 200,
+        "HTTPHeaders": {
+            "x-amzn-requestid": "202da13d-4eaf-41b4-8cf9-df12c1a4f8ba",
+            "content-type": "application/x-amz-json-1.1",
+            "content-length": "1248",
+            "date": "Wed, 09 Oct 2024 08:52:25 GMT"
+        },
+        "RetryAttempts": 0
+    }
+}

@@ -1,0 +1,91 @@
+{
+    "Labels": [
+        {
+            "Name": "Art",
+            "Confidence": 99.36585998535156,
+            "Instances": [],
+            "Parents": [],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Hobbies and Interests"
+                }
+            ]
+        },
+        {
+            "Name": "Book",
+            "Confidence": 99.10893249511719,
+            "Instances": [],
+            "Parents": [
+                {
+                    "Name": "Publication"
+                }
+            ],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Hobbies and Interests"
+                }
+            ]
+        },
+        {
+            "Name": "Comics",
+            "Confidence": 99.10893249511719,
+            "Instances": [],
+            "Parents": [
+                {
+                    "Name": "Book"
+                },
+                {
+                    "Name": "Publication"
+                }
+            ],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Hobbies and Interests"
+                }
+            ]
+        },
+        {
+            "Name": "Publication",
+            "Confidence": 99.10893249511719,
+            "Instances": [],
+            "Parents": [],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Education"
+                }
+            ]
+        },
+        {
+            "Name": "Painting",
+            "Confidence": 98.97783660888672,
+            "Instances": [],
+            "Parents": [
+                {
+                    "Name": "Art"
+                }
+            ],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Furniture and Furnishings"
+                }
+            ]
+        }
+    ],
+    "LabelModelVersion": "3.0",
+    "ResponseMetadata": {
+        "RequestId": "f79fe2ca-7ca0-47f1-982d-95f13a2e6c98",
+        "HTTPStatusCode": 200,
+        "HTTPHeaders": {
+            "x-amzn-requestid": "f79fe2ca-7ca0-47f1-982d-95f13a2e6c98",
+            "content-type": "application/x-amz-json-1.1",
+            "content-length": "796",
+            "date": "Wed, 09 Oct 2024 08:52:10 GMT"
+        },
+        "RetryAttempts": 0
+    }
+}

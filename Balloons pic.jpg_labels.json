@@ -1,0 +1,134 @@
+{
+    "Labels": [
+        {
+            "Name": "Balloon",
+            "Confidence": 99.94503784179688,
+            "Instances": [
+                {
+                    "BoundingBox": {
+                        "Width": 0.3108115792274475,
+                        "Height": 0.2674027383327484,
+                        "Left": 0.4042743742465973,
+                        "Top": 0.13508883118629456
+                    },
+                    "Confidence": 95.8570556640625
+                }
+            ],
+            "Parents": [],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Events and Attractions"
+                }
+            ]
+        },
+        {
+            "Name": "Urban",
+            "Confidence": 98.02989196777344,
+            "Instances": [],
+            "Parents": [],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Colors and Visual Composition"
+                }
+            ]
+        },
+        {
+            "Name": "Adult",
+            "Confidence": 93.4819564819336,
+            "Instances": [
+                {
+                    "BoundingBox": {
+                        "Width": 0.43964970111846924,
+                        "Height": 0.49095410108566284,
+                        "Left": 0.25804489850997925,
+                        "Top": 0.5090330839157104
+                    },
+                    "Confidence": 93.4819564819336
+                }
+            ],
+            "Parents": [
+                {
+                    "Name": "Person"
+                }
+            ],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Person Description"
+                }
+            ]
+        },
+        {
+            "Name": "Man",
+            "Confidence": 93.4819564819336,
+            "Instances": [
+                {
+                    "BoundingBox": {
+                        "Width": 0.43964970111846924,
+                        "Height": 0.49095410108566284,
+                        "Left": 0.25804489850997925,
+                        "Top": 0.5090330839157104
+                    },
+                    "Confidence": 93.4819564819336
+                }
+            ],
+            "Parents": [
+                {
+                    "Name": "Adult"
+                },
+                {
+                    "Name": "Male"
+                },
+                {
+                    "Name": "Person"
+                }
+            ],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Person Description"
+                }
+            ]
+        },
+        {
+            "Name": "Person",
+            "Confidence": 93.4819564819336,
+            "Instances": [
+                {
+                    "BoundingBox": {
+                        "Width": 0.43964970111846924,
+                        "Height": 0.49095410108566284,
+                        "Left": 0.25804489850997925,
+                        "Top": 0.5090330839157104
+                    },
+                    "Confidence": 93.4819564819336
+                }
+            ],
+            "Parents": [],
+            "Aliases": [
+                {
+                    "Name": "Human"
+                }
+            ],
+            "Categories": [
+                {
+                    "Name": "Person Description"
+                }
+            ]
+        }
+    ],
+    "LabelModelVersion": "3.0",
+    "ResponseMetadata": {
+        "RequestId": "a10b897b-54ae-4c0f-b662-9acbd8f8e5a9",
+        "HTTPStatusCode": 200,
+        "HTTPHeaders": {
+            "x-amzn-requestid": "a10b897b-54ae-4c0f-b662-9acbd8f8e5a9",
+            "content-type": "application/x-amz-json-1.1",
+            "content-length": "1426",
+            "date": "Wed, 09 Oct 2024 08:53:07 GMT"
+        },
+        "RetryAttempts": 0
+    }
+}

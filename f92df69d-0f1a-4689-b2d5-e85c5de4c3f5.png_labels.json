@@ -1,0 +1,86 @@
+{
+    "Labels": [
+        {
+            "Name": "Clothing",
+            "Confidence": 94.57715606689453,
+            "Instances": [],
+            "Parents": [],
+            "Aliases": [
+                {
+                    "Name": "Apparel"
+                }
+            ],
+            "Categories": [
+                {
+                    "Name": "Apparel and Accessories"
+                }
+            ]
+        },
+        {
+            "Name": "Glove",
+            "Confidence": 94.57715606689453,
+            "Instances": [
+                {
+                    "BoundingBox": {
+                        "Width": 0.10234227776527405,
+                        "Height": 0.11532622575759888,
+                        "Left": 0.2837696075439453,
+                        "Top": 0.7408807873725891
+                    },
+                    "Confidence": 94.57715606689453
+                }
+            ],
+            "Parents": [
+                {
+                    "Name": "Clothing"
+                }
+            ],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Apparel and Accessories"
+                }
+            ]
+        },
+        {
+            "Name": "Animal",
+            "Confidence": 94.5471420288086,
+            "Instances": [],
+            "Parents": [],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Animals and Pets"
+                }
+            ]
+        },
+        {
+            "Name": "Mammal",
+            "Confidence": 94.5471420288086,
+            "Instances": [],
+            "Parents": [
+                {
+                    "Name": "Animal"
+                }
+            ],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Animals and Pets"
+                }
+            ]
+        }
+    ],
+    "LabelModelVersion": "3.0",
+    "ResponseMetadata": {
+        "RequestId": "e87211ff-33cc-4f6f-b8cd-502de8a5fe55",
+        "HTTPStatusCode": 200,
+        "HTTPHeaders": {
+            "x-amzn-requestid": "e87211ff-33cc-4f6f-b8cd-502de8a5fe55",
+            "content-type": "application/x-amz-json-1.1",
+            "content-length": "793",
+            "date": "Wed, 09 Oct 2024 08:52:41 GMT"
+        },
+        "RetryAttempts": 0
+    }
+}

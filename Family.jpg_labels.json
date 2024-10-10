@@ -1,0 +1,215 @@
+{
+    "Labels": [
+        {
+            "Name": "Blazer",
+            "Confidence": 100.0,
+            "Instances": [],
+            "Parents": [
+                {
+                    "Name": "Clothing"
+                },
+                {
+                    "Name": "Coat"
+                },
+                {
+                    "Name": "Jacket"
+                }
+            ],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Apparel and Accessories"
+                }
+            ]
+        },
+        {
+            "Name": "Coat",
+            "Confidence": 100.0,
+            "Instances": [
+                {
+                    "BoundingBox": {
+                        "Width": 0.253347784280777,
+                        "Height": 0.28809234499931335,
+                        "Left": 0.5203149914741516,
+                        "Top": 0.3074394762516022
+                    },
+                    "Confidence": 93.42196655273438
+                },
+                {
+                    "BoundingBox": {
+                        "Width": 0.23175430297851562,
+                        "Height": 0.5005050301551819,
+                        "Left": 0.3356569707393646,
+                        "Top": 0.26447051763534546
+                    },
+                    "Confidence": 92.17061614990234
+                }
+            ],
+            "Parents": [
+                {
+                    "Name": "Clothing"
+                }
+            ],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Apparel and Accessories"
+                }
+            ]
+        },
+        {
+            "Name": "Jacket",
+            "Confidence": 100.0,
+            "Instances": [],
+            "Parents": [
+                {
+                    "Name": "Clothing"
+                },
+                {
+                    "Name": "Coat"
+                }
+            ],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Apparel and Accessories"
+                }
+            ]
+        },
+        {
+            "Name": "People",
+            "Confidence": 100.0,
+            "Instances": [],
+            "Parents": [
+                {
+                    "Name": "Person"
+                }
+            ],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Person Description"
+                }
+            ]
+        },
+        {
+            "Name": "Photography",
+            "Confidence": 99.99976348876953,
+            "Instances": [],
+            "Parents": [],
+            "Aliases": [
+                {
+                    "Name": "Photo"
+                }
+            ],
+            "Categories": [
+                {
+                    "Name": "Hobbies and Interests"
+                }
+            ]
+        },
+        {
+            "Name": "Portrait",
+            "Confidence": 99.99976348876953,
+            "Instances": [],
+            "Parents": [
+                {
+                    "Name": "Face"
+                },
+                {
+                    "Name": "Head"
+                },
+                {
+                    "Name": "Person"
+                },
+                {
+                    "Name": "Photography"
+                }
+            ],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Hobbies and Interests"
+                }
+            ]
+        },
+        {
+            "Name": "Formal Wear",
+            "Confidence": 99.98916625976562,
+            "Instances": [],
+            "Parents": [],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Apparel and Accessories"
+                }
+            ]
+        },
+        {
+            "Name": "Suit",
+            "Confidence": 99.98916625976562,
+            "Instances": [],
+            "Parents": [
+                {
+                    "Name": "Clothing"
+                },
+                {
+                    "Name": "Formal Wear"
+                }
+            ],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Apparel and Accessories"
+                }
+            ]
+        },
+        {
+            "Name": "Pants",
+            "Confidence": 99.95674133300781,
+            "Instances": [],
+            "Parents": [
+                {
+                    "Name": "Clothing"
+                }
+            ],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Apparel and Accessories"
+                }
+            ]
+        },
+        {
+            "Name": "Graduation",
+            "Confidence": 99.76565551757812,
+            "Instances": [],
+            "Parents": [
+                {
+                    "Name": "People"
+                },
+                {
+                    "Name": "Person"
+                }
+            ],
+            "Aliases": [],
+            "Categories": [
+                {
+                    "Name": "Education"
+                }
+            ]
+        }
+    ],
+    "LabelModelVersion": "3.0",
+    "ResponseMetadata": {
+        "RequestId": "199eb25f-3199-4b27-a47f-d4f80282f2c0",
+        "HTTPStatusCode": 200,
+        "HTTPHeaders": {
+            "x-amzn-requestid": "199eb25f-3199-4b27-a47f-d4f80282f2c0",
+            "content-type": "application/x-amz-json-1.1",
+            "content-length": "1997",
+            "date": "Wed, 09 Oct 2024 07:35:04 GMT"
+        },
+        "RetryAttempts": 0
+    }
+}
