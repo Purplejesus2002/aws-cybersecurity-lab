@@ -33,4 +33,51 @@ The architecture includes:
    - Customize additional rules based on specific needs (e.g., HTTP/HTTPS).
 5. Launch the instance and connect using SSH:
    ```bash
+
+   References:
+AWS Documentation
+Ubuntu UFW Guide
+Amazon CloudWatch Logs
+AWS WAF Managed Rules
   
+### Image and Video Analysis with AWS Rekognition
+
+**Purpose**: AWS Rekognition provides advanced image and video analysis, enabling automated detection of objects, text, scenes, and activities. For this project, AWS Rekognition can be integrated as an additional security layer to monitor visual content or as a data analysis tool.
+
+**Use Cases**:
+- **Security Monitoring**: Analyze images or video feeds to detect suspicious objects or activities.
+- **Content Management**: Automatically tag and categorize images, which is useful for managing media assets securely in S3.
+
+**Setup Guide**:
+
+#### 1. Create an S3 Bucket for Image Storage
+1. Go to the **S3 Dashboard** and create a new bucket (e.g., `my-security-images-bucket`).
+2. Set appropriate permissions for AWS Rekognition to access the images in this bucket.
+   
+#### 2. Configure IAM Permissions for Rekognition
+1. Go to the **IAM Dashboard** > **Policies** > **Create Policy**.
+2. Add the following permissions for Rekognition and S3:
+   ```json
+   {
+       "Version": "2012-10-17",
+       "Statement": [
+           {
+               "Effect": "Allow",
+               "Action": [
+                   "s3:GetObject",
+                   "s3:PutObject",
+                   "s3:ListBucket"
+               ],
+               "Resource": "arn:aws:s3:::my-security-images-bucket/*"
+           },
+           {
+               "Effect": "Allow",
+               "Action": [
+                   "rekognition:DetectLabels",
+                   "rekognition:DetectModerationLabels"
+               ],
+               "Resource": "*"
+           }
+       ]
+   }
+
